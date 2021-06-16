@@ -17,4 +17,4 @@ const celsiuConverssione = y => {
 const celsiUscon = risultato => {
     return celsiuConverssione(risultato) * 5/9 ;
 }
-console.log(celsiUscon(273));
+console.log(Math.round(celsiUscon(273)));
