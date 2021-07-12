@@ -82,3 +82,35 @@ let g1 = 200;
 for(let i = g1; i--;) { 
 console.log(i);
 }
+let array2 = ['HHH', 'GGG', 'FFF',  'GEGG',  ];
+
+array2.forEach(element =>{
+    console.log(element)});
+  
+const reverse = array2.reverse(" ");
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// inserts at index 1
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, 'May');
+// replaces 1 element at index 4
+console.log(months);
+// expected output: Array ["Jan", "Feb", "March", "April", "May"]
+//ject esecitazione
+const persona = {
+    nome: 'salif',
+    cognome: 'adama',
+    interessi: ['viaggi', 'feste', 'cene', 'uscite', 'danza'],
+} 
+console.log(persona);
+
+
+let i = 20;
+for ( let z = i; z++;) {
+  
+}    while( z >= 100) {
+    console.log(z);
+}
